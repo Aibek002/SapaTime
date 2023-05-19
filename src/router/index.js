@@ -1,12 +1,13 @@
 import Title from "../components/Title.vue";
 import About from "../components/About.vue";
 import Hotels from "../components/Hotels.vue";
+import ToursById from "../components/ToursById.vue";
 import Tours from "../components/Tours.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 // Vue.use(Router);
 
-const router = createRouter({
+const routers = createRouter({
   history: createWebHistory(),
   routes: [
     {
@@ -25,11 +26,15 @@ const router = createRouter({
       component: About,
     },
     {
-      path: "/tours",
+      path: '/tours/:id',
+      name: "ToursById",
+      component: ToursById,
+    },
+    {
+      path: '/tours',
       name: "Tours",
       component: Tours,
     },
   ],
 });
-
-export default router;
+export default routers;

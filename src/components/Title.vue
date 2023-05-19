@@ -5,7 +5,6 @@
     <hr>
     </div>
 </template>
-
 <script>
 setInterval(function() {
   var element = document.querySelector('.title');
@@ -21,11 +20,11 @@ export default {
 
 <style scoped>
 .title {
- 
+  
     background-color: rgba(0, 0, 0, 0.5);
-    /* Здесь 0.5 указывает на уровень прозрачности черного цвета */
+
     background-blend-mode: multiply;
-    /* Наложение цвета с помощью режима умножения */
+
     background-size: cover;
     animation: changeBackground 10s infinite;
     background-repeat: repeat;
@@ -59,7 +58,6 @@ hr{
 }
 
 @keyframes changeBackground {
- 
   0% {
     background-image: url("https://kartinkin.net/uploads/posts/2022-08/thumbs/1659458798_25-kartinkin-net-p-puteshestvennik-kartinki-krasivo-30.jpg");
   }
@@ -68,7 +66,6 @@ hr{
   }
   100% {
     background-image: url('https://img1.akspic.ru/crops/2/8/4/7482/7482-otpusk-rechnoj_kruiz-pejzazhi-priroda-kruiznoe_sudno-1920x1080.jpg');
-
-  }
-}
+  } 
+ } 
 </style>

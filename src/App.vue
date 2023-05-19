@@ -14,7 +14,6 @@ import Header from './components/Header.vue';
 export default {
     components: {
         Header
-        // ,Title,About,Hotels,Tours
     },
 
     data() {
