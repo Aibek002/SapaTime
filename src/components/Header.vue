@@ -2,10 +2,10 @@
     <header>
         <div class="item"><img src="../img/logotype.png" alt="logo"></div>
         <div class="item"></div>
-        <div class="item"> <a href="#Home">Главная</a> </div>
-        <div class="item"><a href="#about">О нас</a> </div>
-        <div class="item"><a href="#tours">Туры</a> </div>
-        <div class="item"><a href="#hotels" >Hotels</a> </div>
+        <div class="item"> <a href="\">Главная</a> </div>
+        <div class="item"><a href="\about">О нас</a> </div>
+        <div class="item"><a href="\tours">Туры</a> </div>
+        <div class="item"><a href="\hotels" >Hotels</a> </div>
         <hr>
 
     </header>

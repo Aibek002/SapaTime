@@ -1,29 +1,24 @@
 <template>
-<div class="body">
-    <router-view/>
-    <!-- <Header />
-    <Title />
-    <About />
-    <Hotels />
-    <Tours /> -->
-</div>
+    <div class="body">
 
+        <Header /> 
+        <router-view />
+
+    </div>
 </template>
 
 
 <script>
-// import Header from './components/Header.vue';
-// import Title from './components/Title.vue'
-// import About from './components/About.vue';
-// import Hotels from './components/Hotels.vue';
-// import Tours from './components/Tours.vue';
-export default{
-    components:{
-        // Header,Title,About,Hotels,Tours
+import Header from './components/Header.vue';
+
+export default {
+    components: {
+        Header
+        // ,Title,About,Hotels,Tours
     },
 
-    data(){
-        return{
+    data() {
+        return {
 
         }
     }
@@ -31,5 +26,4 @@ export default{
 
 </script>
 
-<style>
-</style>
+<style></style>
